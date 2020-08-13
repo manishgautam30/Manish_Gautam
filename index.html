@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        #container {
+            padding: 10px;
+            position: relative;
+            width: 95%;
+        }
+        
+        img {
+            padding: 10px;
+            border-radius: 10px;
+            width: 90%;
+        }
+        
+        #text-block {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            background-color: transparent;
+            color: white;
+            padding: 20px;
+            height: 50px;
+        }
+        
+        #manishback {
+            height: 700px;
+            border: 5px solid black;
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            width: 99%;
+        }
+        
+        a:any-link {
+            color: white;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            background-color: blue;
+        }
+        
+        #menu {
+            display: inline-flex;
+            flex-direction: row;
+            background-color: transparent;
+            height: 50px;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top: 40px;
+            right: 20px;
+        }
+        
+        #about {
+            order: 1;
+            border: solid;
+            margin-right: 25px;
+            font-size: x-large;
+            font-weight: bolder;
+            background-color: red;
+            border-radius: 5px;
+            padding: 5px;
+        }
+        
+        #connect {
+            order: 2;
+            border: solid;
+            margin-right: 25px;
+            font-size: x-large;
+            font-weight: bolder;
+            background-color: red;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        
+        #know {
+            order: 3;
+            border: solid;
+            margin-right: 25px;
+            font-size: x-large;
+            padding: 5px;
+            font-weight: bolder;
+            background-color: red;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <img name="home0" title="Manish Gautam" id="manishback" src="../images/back.jpg" alt="image" usemap="mapp">
+        <map name="mapp">
+            <area shape="poly" coords="" href="https://en.wikipedia.org/wiki/Entrepreneurship" alt="">
+        </map>
+        <div id="text-block">
+            <marquee>
+                <h1><mark style="background-color: yellow">Manish Gautam</mark></h1>
+            </marquee>
+        </div>
+        <div id="menu">
+            <div id="about"><a href="#about0">ABOUT ME</a></div>
+            <div id="connect"><a href="#connect0">CONNECT</a></div>
+            <div id="know"><a href="#know0">KNOW MORE</a></div>
+        </div>
+    </div>
+</body>
+
+</html>
