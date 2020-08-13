@@ -20,7 +20,7 @@
             margin-right: auto;
         }
         
-        img {
+        #manishback {
             padding: 10px;
             border: 3px solid black;
             width: 98%;
@@ -41,12 +41,12 @@
             height: 50px;
         }
         
-        a:any-link {
+        div>a:any-link {
             color: white;
             text-decoration: none;
         }
         
-        a:hover {
+        div>a:hover {
             background-color: blue;
         }
         
@@ -94,12 +94,26 @@
             background-color: red;
             border-radius: 5px;
         }
+        
+        #top {
+            text-decoration: none;
+        }
+        
+        #arrowimg {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+        }
     </style>
 </head>
 
 <body>
     <div id="container">
-        <img name="home0" title="Manish Gautam" id="manishback" src="../images/back.jpg" alt="image" usemap="mapp">
+        <a name="home0"></a>
+        <img title="Manish Gautam" id="manishback" src="../images/back.jpg" alt="image" usemap="mapp">
         <map name="mapp">
             <area shape="poly" coords="" href="https://en.wikipedia.org/wiki/Entrepreneurship" alt="">
         </map>
@@ -113,6 +127,8 @@
             <div id="connect"><a href="#connect0">CONNECT</a></div>
             <div id="know"><a href="#know0">KNOW MORE</a></div>
         </div>
+
+        <a id="top" href="#home0"><img id="arrowimg" src="../images/back.jpg" alt=""></a>
     </div>
 </body>
 
