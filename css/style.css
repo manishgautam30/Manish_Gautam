@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 #container {
     margin-top: 5px;
     padding: 10px;
@@ -22,6 +26,12 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    overflow: hidden;
+    transform: .5s ease;
+}
+
+#manishback:hover {
+    transform: scale(1.5);
 }
 
 #text-block {
