@@ -26,13 +26,15 @@ html {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    overflow: hidden;
-    transform: .5s ease;
+    /* overflow: hidden;
+    transform: .5s ease; */
 }
 
-#manishback:hover {
+
+/* #manishback:hover {
     transform: scale(1.5);
-}
+    overflow: hidden;
+} */
 
 #text-block {
     position: absolute;
