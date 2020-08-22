@@ -130,11 +130,6 @@ ul li a:hover {
 
 #image {
     order: 2;
-    overflow: hidden;
-}
-
-#imgmeri:hover {
-    transform: scale(1.3);
 }
 
 
@@ -155,10 +150,17 @@ ul li a:hover {
     margin-left: 15px;
     margin-right: 15px;
     margin-top: 10px;
+    border-radius: 50%;
+    transition: transform 750ms cubic-bezier(.5, 0, .5, 1), opacity 250ms linear;
+}
+
+#tagimages:hover {
+    transform: scale(1.3);
 }
 
 #divimg {
     border-radius: 10px;
+    overflow: hidden;
     margin: 2%;
     width: 350px;
     height: 500px;
@@ -187,7 +189,7 @@ ul li a:hover {
     text-align: center;
     margin: 10px;
     font-size: x-large;
-    color: white;
+    color: rgb(212, 59, 39);
 }
 
 #l {
@@ -201,7 +203,8 @@ ul li a:hover {
     display: flex;
     flex-direction: column;
     /* background-color: rgb(13, 13, 48); */
-    background-color: rgb(51, 49, 49);
+    /* background-color: rgb(51, 49, 49); */
+    background-image: url('')
 }
 
 #what {
@@ -213,6 +216,60 @@ ul li a:hover {
 }
 
 #whatl {
-    color: rgb(236, 41, 15);
+    color: rgb(255, 35, 15);
     font-size: 100px;
+}
+
+#workmain {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#workheading {
+    margin-top: 20px;
+    order: 1;
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#worktitle {
+    color: rgb(255, 35, 15);
+    font-size: 100px;
+}
+
+#workcontent {
+    order: 2;
+}
+
+
+/* 
+------------------------------------------------------- */
+
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.portfolio__item {
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 30px;
+}
+
+.portfolio__img {
+    width: 300px;
+    transition: transform 750ms cubic-bezier(.5, 0, .5, 1), opacity 250ms linear;
+}
+
+.portfolio__item:focus {
+    position: relative;
+    z-index: 2;
+}
+
+.portfolio__img:hover,
+.portfolio__item:focus .portfolio__img {
+    transform: scale(1.2);
+    opacity: .5;
 }
