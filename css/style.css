@@ -8,11 +8,14 @@ html {
 }
 
 #container {
+    background-image: url('https://github.com/manishgautam30/My-Website/blob/master/images/laptop.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
     margin-top: 5px;
     padding-top: 10px;
     position: relative;
-    border: solid red;
-    width: 90%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -67,7 +70,7 @@ ul {
     right: 170px;
     list-style: none;
     overflow: hidden;
-    background-color: whitesmoke;
+    background-color: white;
     width: fit-content;
 }
 
@@ -189,14 +192,14 @@ ul li a:hover {
     text-align: center;
     margin: 10px;
     font-size: x-large;
-    color: rgb(212, 59, 39);
+    color: red;
 }
 
 #l {
     margin-top: 10px;
     text-align: center;
     margin: 10px 15px 10px;
-    color: white;
+    color: greenyellow;
 }
 
 #cope {
