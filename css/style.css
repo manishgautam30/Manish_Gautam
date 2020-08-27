@@ -287,7 +287,7 @@ ul li a:hover {
     /* margin-top: 50px; */
     display: flex;
     flex-direction: column;
-    margin-bottom: 100px;
+    background-color: rgb(13, 13, 44);
 }
 
 #followheading {
@@ -305,5 +305,38 @@ ul li a:hover {
 
 #followcontent {
     order: 2;
-    margin-top: 50px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#top {
+    order: 1;
+}
+
+#bottom {
+    order: 2;
+    display: flex;
+    flex-direction: row;
+}
+
+#linkdin {
+    order: 1;
+    margin-right: 10px;
+}
+
+#insta {
+    order: 2;
+    margin-right: 10px;
+}
+
+#github {
+    order: 3;
+    margin-right: 10px;
+}
+
+#hacker {
+    order: 4;
 }
