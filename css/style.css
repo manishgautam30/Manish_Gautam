@@ -314,29 +314,46 @@ ul li a:hover {
 
 #top {
     order: 1;
+    padding: 5px;
+    margin-bottom: 10px;
 }
 
 #bottom {
     order: 2;
     display: flex;
     flex-direction: row;
+    margin-bottom: 30px;
 }
 
 #linkdin {
     order: 1;
-    margin-right: 10px;
+    margin-right: 40px;
 }
 
 #insta {
     order: 2;
-    margin-right: 10px;
+    margin-right: 40px;
 }
 
 #github {
     order: 3;
-    margin-right: 10px;
+    margin-right: 40px;
 }
 
 #hacker {
     order: 4;
+}
+
+#lasttext {
+    color: white;
+    text-decoration: none;
+}
+
+#lasttexthigh {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+#lasttexthigh:hover {
+    color: red;
 }
