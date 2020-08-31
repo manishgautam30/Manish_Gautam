@@ -82,7 +82,7 @@ ul {
     right: 50px;
     list-style: none;
     overflow: hidden;
-    background-image: url('https://raw.githubusercontent.com/manishgautam30/My-Website/master/images/fruit.jpg');
+    background-image: url('https://raw.githubusercontent.com/manishgautam30/My-Website/master/images/lovely.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -99,7 +99,8 @@ ul li a {
     width: 100px;
     display: block;
     padding: 10px 15px;
-    color: black;
+    color: white;
+    background-color: black;
     font-size: large;
     font-weight: bold;
     text-transform: uppercase;
@@ -130,7 +131,10 @@ ul li a:hover {
 #heading {
     margin-bottom: 20px;
     order: 1;
-    background-color: aqua;
+    background-image: url('https://raw.githubusercontent.com/manishgautam30/My-Website/master/images/lapi.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
     border-radius: 5px;
     padding: 3px;
 }
@@ -138,7 +142,10 @@ ul li a:hover {
 #para {
     order: 2;
     padding: 3px;
-    background-color: rgb(255, 196, 0);
+    background-image: url('https://raw.githubusercontent.com/manishgautam30/My-Website/master/images/textke.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
     font-style: oblique;
     font-weight: bold;
     width: 300px;
