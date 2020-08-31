@@ -136,7 +136,7 @@ ul li a:hover {
     background-size: 100% 100%;
     border-radius: 5px;
     padding: 3px;
-    color: white;
+    color: rgb(1, 5, 15);
 }
 
 #para {
@@ -149,9 +149,9 @@ ul li a:hover {
     font-style: oblique;
     font-weight: bold;
     width: 300px;
-    color: greenyellow;
+    color: white;
     border-radius: 5px;
-    text-align: justify;
+    text-align: left;
 }
 
 #image {
