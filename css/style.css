@@ -83,6 +83,9 @@ ul {
     list-style: none;
     overflow: hidden;
     background-image: url('https://raw.githubusercontent.com/manishgautam30/My-Website/master/images/fruit.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
     width: fit-content;
 }
 
@@ -96,7 +99,7 @@ ul li a {
     width: 100px;
     display: block;
     padding: 10px 15px;
-    color: red;
+    color: black;
     font-size: large;
     font-weight: bold;
     text-transform: uppercase;
