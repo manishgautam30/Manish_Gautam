@@ -51,7 +51,6 @@ html {
 
 #top {
     text-decoration: none;
-    border: 3px solid red;
 }
 
 #arrowimg {
@@ -129,7 +128,7 @@ ul li a:hover {
 }
 
 #heading {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     order: 1;
     background-image: url('https://raw.githubusercontent.com/manishgautam30/My-Website/master/images/lapi.jpg');
     background-repeat: no-repeat;
@@ -137,6 +136,7 @@ ul li a:hover {
     background-size: 100% 100%;
     border-radius: 5px;
     padding: 3px;
+    color: white;
 }
 
 #para {
@@ -149,12 +149,14 @@ ul li a:hover {
     font-style: oblique;
     font-weight: bold;
     width: 300px;
+    color: whitesmoke;
     border-radius: 5px;
     text-align: justify;
 }
 
 #image {
     order: 2;
+    border: 5px solid whitesmoke;
 }
 
 
