@@ -12,7 +12,6 @@ html {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-    margin-top: 5px;
     padding-top: 10px;
     width: 100%;
     margin-left: auto;
@@ -20,8 +19,7 @@ html {
 }
 
 #manishback {
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-top: 100px;
     border: 3px solid black;
     width: 98%;
     height: 65%;
@@ -119,7 +117,7 @@ ul li a:hover {
     align-content: center;
     flex-direction: row;
     width: auto;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-bottom: 100px;
 }
 
@@ -174,12 +172,12 @@ ul li a:hover {
     order: 2;
     display: flex;
     margin-top: 10px;
-    height: 650px;
+    height: 750px;
     justify-content: center;
     align-content: center;
 }
 
-#tagimages {
+.tagimages {
     width: 90%;
     height: 45%;
     margin-left: 15px;
@@ -198,7 +196,7 @@ ul li a:hover {
     overflow: hidden;
     margin: 2%;
     width: 350px;
-    height: 500px;
+    height: 620px;
     float: left;
 }
 
@@ -254,6 +252,7 @@ ul li a:hover {
 #whatl {
     color: rgb(255, 35, 15);
     font-size: 100px;
+    text-align: center;
 }
 
 #workmain {
@@ -275,6 +274,7 @@ ul li a:hover {
 #worktitle {
     color: rgb(255, 35, 15);
     font-size: 100px;
+    text-align: center;
 }
 
 #workcontent {
@@ -478,7 +478,7 @@ img {
         align-content: center;
         flex-direction: column;
         width: auto;
-        margin-top: 100px;
+        margin-top: 50px;
         margin-bottom: 100px;
     }
     #para {
@@ -533,5 +533,28 @@ img {
         position: absolute;
         right: 3%;
         top: 0px;
+    }
+}
+
+@media (max-width: 500px) {
+    .tagimages {
+        display: none;
+    }
+    .tagimages {
+        display: none;
+    }
+    #divimg {
+        border-radius: 10px;
+        overflow: hidden;
+        margin: 2%;
+        width: 350px;
+        height: 900px;
+        float: left;
+    }
+    #bag {
+        height: 900px;
+    }
+    #worheading {
+        margin-top: 50px;
     }
 }
