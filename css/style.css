@@ -320,7 +320,7 @@ ul li a:hover {
     /* margin-top: 50px; */
     display: flex;
     flex-direction: column;
-    background-image: url('https://raw.githubusercontent.com/manishgautam30/My-Website/master/images/last.jpg');
+    background-image: url('https://raw.githubusercontent.com/manishgautam30/My-Website/master/images/lovely.jpg');
 }
 
 #followheading {
@@ -379,12 +379,14 @@ ul li a:hover {
 }
 
 #lasttext {
-    color: white;
+    background-color: grey;
+    color: rgb(131, 255, 7);
     text-decoration: none;
 }
 
 #lasttexthigh {
-    color: blueviolet;
+    background-color: grey;
+    color: blue;
     text-decoration: none;
 }
 
