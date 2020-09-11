@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="icon" href="images/logo.jpg">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
     <title>Manish Gautam</title>
     <link rel="stylesheet" href="css/style.css">
@@ -15,27 +17,35 @@
 
 <body>
     <div id="container">
-        <div>
-            <ul>
-                <li>
-                    <a href="#">home</a></li>
-                <li>
-                    <a href="#aboutme">about</a></li>
-                <li>
-                    <a href="#working">WORK</a></li>
-                <li>
-                    <a href="#follow">follow</a></li>
+        <div class="header">
+            <h2>Manish Gautam</h2>
+
+            <input type="checkbox" id="chk">
+            <label for="chk" class="show-btn">
+                <i class="fa fa-bars" ></i>
+                </label>
+
+            <ul class="menu">
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#working">work</a></li>
+                <li><a href="#followc">follow</a></li>
+                <label for="chk" class="hide-btn">
+                    <i class="fa fa-times" ></i>
+                </label>
+
+
             </ul>
         </div>
 
-        <a name="upar"></a>
+        <a name="home"></a>
         <img title="Manish Gautam" id="manishback" src="images/back.JPG" alt="image">
 
-        <div id="text-block">
-            <marquee>
+        <!-- <div id="text-block">
+            <marquee id="m1">
                 <h1><mark style="background-color: yellow">Manish Gautam </mark></h1>
             </marquee>
-        </div>
+        </div> -->
 
 
 
@@ -44,7 +54,7 @@
             <img title="Back To Top" id="arrowimg" src="images/top.jpg" alt="">
         </a>
 
-        <a name="aboutme"></a>
+        <a name="about"></a>
 
 
         <div id="imgcontainer">
@@ -60,7 +70,7 @@
                 </div>
             </div>
             <div id="image">
-                <img id="imgmeri" style="height: 70%;" src="images/Capture.JPG" alt="my_image">
+                <img id="imgmeri" src="images/Capture.JPG" alt="my_image">
             </div>
         </div>
 
@@ -180,7 +190,7 @@
 
 
 
-        <a name="follow"></a>
+        <a name="followc"></a>
 
         <div id="followmain">
 

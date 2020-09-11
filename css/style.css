@@ -40,8 +40,8 @@ html {
 } */
 
 #text-block {
-    position: absolute;
-    top: 50px;
+    position: sticky;
+    top: 0px;
     left: 30px;
     background-color: transparent;
     color: white;
@@ -74,7 +74,8 @@ html {
     border: 3px solid red;
 }
 
-ul {
+
+/* ul {
     z-index: 100;
     position: fixed;
     top: 40px;
@@ -88,11 +89,12 @@ ul {
     width: fit-content;
 }
 
+/*
 ul li {
-    /* display: inline-block; */
+     display: inline-block; 
     padding: 5px;
 }
-
+                                                 *<removethis>/
 ul li a {
     text-align: center;
     width: 100px;
@@ -109,7 +111,7 @@ ul li a {
 ul li a:hover {
     background-color: red;
     color: white;
-}
+} */
 
 #imgcontainer {
     display: flex;
@@ -137,7 +139,12 @@ ul li a:hover {
     background-size: 100% 100%;
     border-radius: 5px;
     padding: 3px;
-    color: rgb(1, 5, 15);
+    color: red;
+}
+
+#heading h1 {
+    background-color: black;
+    text-align: center;
 }
 
 #para {
@@ -152,6 +159,7 @@ ul li a:hover {
     width: 300px;
     color: white;
     border-radius: 5px;
+    margin: auto;
     text-align: left;
 }
 
@@ -312,7 +320,7 @@ ul li a:hover {
     /* margin-top: 50px; */
     display: flex;
     flex-direction: column;
-    background-color: rgb(10, 10, 37);
+    background-image: url('https://raw.githubusercontent.com/manishgautam30/My-Website/master/images/last.jpg');
 }
 
 #followheading {
@@ -382,4 +390,146 @@ ul li a:hover {
 
 #lasttexthigh:hover {
     color: red;
+}
+
+
+/* nav barrrr */
+
+.header {
+    z-index: 100;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    margin: 0px auto;
+}
+
+.header h2 {
+    margin-left: 20px;
+    float: left;
+    line-height: 70px;
+    text-transform: capitalize;
+    color: white;
+}
+
+.header .menu {
+    list-style: none;
+    float: right;
+}
+
+.menu li {
+    display: inline-block;
+    line-height: 70px;
+    font-size: larger;
+    text-transform: uppercase;
+    padding: 0 20px;
+    transition: .4s;
+}
+
+.menu li:hover {
+    background-color: white;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    font-size: larger;
+    transition: 0.4s;
+}
+
+.show-btn:hover,
+.hide-btn:hover,
+.menu li a:hover {
+    color: blue;
+}
+
+.show-btn,
+.hide-btn {
+    font-size: 30px;
+    color: white;
+    line-height: 70px;
+    transition: 0.4s;
+    display: none;
+}
+
+.show-btn {
+    float: right;
+}
+
+#chk {
+    visibility: hidden;
+    z-index: -10;
+    position: fixed;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+@media (max-width: 800px) {
+    #imgcontainer {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        width: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    #para {
+        order: 2;
+        padding: 3px;
+        background-image: url('https://raw.githubusercontent.com/manishgautam30/My-Website/master/images/textke.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+        font-style: oblique;
+        font-weight: bold;
+        width: 85%;
+        color: white;
+        border-radius: 5px;
+        margin: auto;
+        text-align: left;
+    }
+    .show-btn,
+    .hide-btn {
+        display: block;
+    }
+    .menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        /*can also use left:-100%;  */
+        width: 60%;
+        height: 100%;
+        background-color: rosybrown;
+        padding: 80px 0px;
+        text-align: center;
+        transition: .7s;
+        line-height: normal;
+    }
+    #chk:checked~.menu {
+        right: 0;
+        /*can also use left:0;  */
+    }
+    .menu li {
+        display: block;
+        line-height: 70px;
+        font-size: larger;
+        text-transform: uppercase;
+        padding: 0 20px;
+    }
+    .hide-btn {
+        position: absolute;
+        right: 3%;
+        top: 0px;
+    }
+    .show-btn {
+        position: absolute;
+        right: 3%;
+        top: 0px;
+    }
 }
