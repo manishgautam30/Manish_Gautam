@@ -320,7 +320,8 @@ ul li a:hover {
     /* margin-top: 50px; */
     display: flex;
     flex-direction: column;
-    background-image: url('https://raw.githubusercontent.com/manishgautam30/My-Website/master/images/lovely.jpg');
+    /* background-image: url('https://raw.githubusercontent.com/manishgautam30/My-Website/master/images/lovely.jpg'); */
+    background-color: #222;
 }
 
 #followheading {
@@ -354,28 +355,6 @@ ul li a:hover {
 
 #bottom {
     order: 2;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 30px;
-}
-
-#linkdin {
-    order: 1;
-    margin-right: 40px;
-}
-
-#insta {
-    order: 2;
-    margin-right: 40px;
-}
-
-#github {
-    order: 3;
-    margin-right: 40px;
-}
-
-#hacker {
-    order: 4;
 }
 
 #lasttext {
@@ -490,7 +469,7 @@ img {
 }
 
 a i {
-    color: white;
+    /* color: white; */
     margin-right: 5px;
 }
 
@@ -580,4 +559,78 @@ a i {
     #worheading {
         margin-top: 50px;
     }
+}
+
+
+/* fotter-------------------------------------------------------------- */
+
+#bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#list {
+    position: relative;
+    display: flex;
+}
+
+#items {
+    list-style: none;
+    position: relative;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+#items a {
+    text-decoration: none;
+}
+
+#one {
+    font-size: 5em;
+    color: black;
+    text-shadow: 0 0 10px white;
+    transition: 0.4s;
+}
+
+#one:hover {
+    color: white;
+    text-shadow: 0 0 15px white;
+    box-shadow: none;
+}
+
+#two {
+    font-size: 5em;
+    color: black;
+    text-shadow: 0 0 10px white;
+    transition: 0.4s;
+}
+
+#two:hover {
+    color: #cd486b;
+    text-shadow: 0 0 15px #8a3ab9;
+}
+
+#three {
+    font-size: 5em;
+    color: black;
+    text-shadow: 0 0 10px white;
+    transition: 0.4s;
+}
+
+#three:hover {
+    color: blue;
+    text-shadow: 0 0 15px blue;
+}
+
+#four {
+    font-size: 5em;
+    color: black;
+    text-shadow: 0 0 10px white;
+    transition: 0.4s;
+}
+
+#four:hover {
+    color: green;
+    text-shadow: 0 0 15px green;
 }
