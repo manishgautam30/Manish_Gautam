@@ -619,8 +619,8 @@ a i {
 }
 
 #three:hover {
-    color: blue;
-    text-shadow: 0 0 15px blue;
+    color: #0e76a8;
+    text-shadow: 0 0 15px #0e76a8;
 }
 
 #four {
@@ -631,6 +631,6 @@ a i {
 }
 
 #four:hover {
-    color: green;
-    text-shadow: 0 0 15px green;
+    color: #6ABE50;
+    text-shadow: 0 0 15px #6ABE50;
 }
