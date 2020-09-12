@@ -429,6 +429,7 @@ ul li a:hover {
 }
 
 .menu li:hover {
+    text-shadow: 0 0 10px #ff0000;
     background-color: white;
 }
 
@@ -469,6 +470,11 @@ img {
     display: block;
     margin: auto;
     width: 80%;
+}
+
+a i {
+    color: white;
+    margin-right: 5px;
 }
 
 @media (max-width: 800px) {
