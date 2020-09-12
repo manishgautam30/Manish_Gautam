@@ -379,15 +379,17 @@ ul li a:hover {
 }
 
 #lasttext {
-    background-color: grey;
-    color: rgb(131, 255, 7);
+    background-color: whitesmoke;
+    color: black;
     text-decoration: none;
+    text-shadow: 0 0 5px #ff0000;
 }
 
 #lasttexthigh {
     background-color: grey;
     color: blue;
     text-decoration: none;
+    text-shadow: 0 0 5px #ff0000;
 }
 
 #lasttexthigh:hover {
@@ -411,12 +413,21 @@ ul li a:hover {
     float: left;
     line-height: 70px;
     text-transform: capitalize;
-    color: white;
+    color: greenyellow;
+    transition: 0.2s;
+}
+
+.header h2:hover {
+    text-shadow: 0 0 10px white;
 }
 
 .header .menu {
     list-style: none;
     float: right;
+}
+
+h1 {
+    text-shadow: 0 0 10px blue;
 }
 
 .menu li {
@@ -425,12 +436,18 @@ ul li a:hover {
     font-size: larger;
     text-transform: uppercase;
     padding: 0 20px;
-    transition: .4s;
+    transition: .2s;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .menu li:hover {
     text-shadow: 0 0 10px #ff0000;
-    background-color: white;
+    background-color: lightblue;
+}
+
+.menu li:hover~.menu i {
+    color: black;
 }
 
 .menu li a {
@@ -513,7 +530,7 @@ a i {
         /*can also use left:-100%;  */
         width: 60%;
         height: 100%;
-        background-color: rosybrown;
+        background-color: black;
         padding: 80px 0px;
         text-align: center;
         transition: .7s;
