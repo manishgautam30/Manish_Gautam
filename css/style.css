@@ -392,12 +392,10 @@ ul li a:hover {
     float: left;
     line-height: 70px;
     text-transform: capitalize;
-    color: greenyellow;
+    color: red;
     transition: 0.2s;
-}
-
-.header h2:hover {
-    text-shadow: 0 0 10px white;
+    font-size: 40px;
+    text-shadow: 0 0 15px white;
 }
 
 .header .menu {
@@ -568,6 +566,7 @@ a i {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 30px;
 }
 
 #list {
