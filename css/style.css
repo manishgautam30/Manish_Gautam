@@ -474,47 +474,6 @@ a i {
 }
 
 @media (max-width: 800px) {
-    #one {
-        font-size: 2em;
-        color: black;
-        text-shadow: 0 0 10px white;
-        transition: 0.4s;
-    }
-    #one:hover {
-        color: white;
-        text-shadow: 0 0 15px white;
-        box-shadow: none;
-    }
-    #two {
-        font-size: 2em;
-        color: black;
-        text-shadow: 0 0 10px white;
-        transition: 0.4s;
-    }
-    #two:hover {
-        color: #cd486b;
-        text-shadow: 0 0 15px #8a3ab9;
-    }
-    #three {
-        font-size: 2em;
-        color: black;
-        text-shadow: 0 0 10px white;
-        transition: 0.4s;
-    }
-    #three:hover {
-        color: #0e76a8;
-        text-shadow: 0 0 15px #0e76a8;
-    }
-    #four {
-        font-size: 2em;
-        color: black;
-        text-shadow: 0 0 10px white;
-        transition: 0.4s;
-    }
-    #four:hover {
-        color: #6ABE50;
-        text-shadow: 0 0 15px #6ABE50;
-    }
     #imgcontainer {
         display: flex;
         justify-content: center;
@@ -628,7 +587,7 @@ a i {
 }
 
 #one {
-    font-size: 5em;
+    font-size: 2em;
     color: black;
     text-shadow: 0 0 10px white;
     transition: 0.4s;
@@ -641,7 +600,7 @@ a i {
 }
 
 #two {
-    font-size: 5em;
+    font-size: 2em;
     color: black;
     text-shadow: 0 0 10px white;
     transition: 0.4s;
@@ -653,7 +612,7 @@ a i {
 }
 
 #three {
-    font-size: 5em;
+    font-size: 2em;
     color: black;
     text-shadow: 0 0 10px white;
     transition: 0.4s;
@@ -665,7 +624,7 @@ a i {
 }
 
 #four {
-    font-size: 5em;
+    font-size: 2em;
     color: black;
     text-shadow: 0 0 10px white;
     transition: 0.4s;
