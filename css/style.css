@@ -320,8 +320,11 @@ ul li a:hover {
     /* margin-top: 50px; */
     display: flex;
     flex-direction: column;
-    /* background-image: url('https://raw.githubusercontent.com/manishgautam30/My-Website/master/images/lovely.jpg'); */
-    background-color: #222;
+    background-image: url('https://raw.githubusercontent.com/manishgautam30/My-Website/master/images/laptop.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* background-color: #222; */
 }
 
 #followheading {
@@ -2321,5 +2324,8 @@ button:-moz-focusring,
 
 #contm {
     margin-top: 30px;
-    background-color: black;
+    background-image: url('https://raw.githubusercontent.com/manishgautam30/My-Website/master/images/lovely.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
