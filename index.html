@@ -28,8 +28,15 @@
                 <li>
                     <a href="#about"> <i class="fa fa-user" aria-hidden="true"></i> about</a>
                 </li>
-                <li><a href="#working"><i class="fa fa-cog" aria-hidden="true"></i>work</a></li>
-                <li><a href="#followc"><i class="fa fa-handshake-o" aria-hidden="true"></i>                    connect</a></li>
+                <li>
+                    <a href="#working"><i class="fa fa-cog" aria-hidden="true"></i>work</a>
+                </li>
+                <li>
+                    <a href="#certiii"><i class="fa fa-certificate" aria-hidden="true"></i>Certi..</a>
+                </li>
+                <li>
+                    <a href="#followc"><i class="fa fa-handshake-o" aria-hidden="true"></i>connect</a>
+                </li>
                 <label for="chk" class="hide-btn">
                     <i class="fa fa-times" ></i>
                 </label>
@@ -191,52 +198,56 @@
 
         <!-- certificationsssssssssssssssssssssssssssssssssssssssssssssssss -->
 
+        <a name="certiii"></a>
+
         <div id="contm">
 
             <div id="cerr" style=" display: flex; justify-content: center; align-items: center; background-color: black; margin: 20px;">
-                <h1 id="worktitle" style="text-align: center;letter-spacing: 5px;">Certifications</h1>
+                <h1 id="worktitle" style="text-align: center;letter-spacing: 2px; font-size: 50px;">Certifications</h1>
             </div>
 
-            <div class="w3-content w3-display-container">
+            <div id="contt">
+                <div class="w3-content w3-display-container">
 
-                <img class="mySlides" src="certis/a.jpg" style="width:100%">
-                <img class="mySlides" src="certis/H.jpeg" style="width:100%">
-                <img class="mySlides" src="certis/b.jpg" style="width:100%">
-                <img class="mySlides" src="certis/HackInIndia.jpeg" style="width:100%">
-                <img class="mySlides" src="certis/c.jpg" style="width:100%">
-                <img class="mySlides" src="certis/d.jpg" style="width:100%">
-                <img class="mySlides" src="certis/Capture.JPG" style="width:100%">
-                <img class="mySlides" src="certis/e.jpg" style="width:100%">
-                <img class="mySlides" src="certis/f.JPG" style="width:100%">
-                <img class="mySlides" src="certis/g.JPG" style="width:100%">
+                    <img class="mySlides" src="certis/a.jpg" style="width:100%">
+                    <img class="mySlides" src="certis/H.jpeg" style="width:100%">
+                    <img class="mySlides" src="certis/b.jpg" style="width:100%">
+                    <img class="mySlides" src="certis/HackInIndia.jpeg" style="width:100%">
+                    <img class="mySlides" src="certis/c.jpg" style="width:100%">
+                    <img class="mySlides" src="certis/d.jpg" style="width:100%">
+                    <img class="mySlides" src="certis/Capture.JPG" style="width:100%">
+                    <img class="mySlides" src="certis/e.jpg" style="width:100%">
+                    <img class="mySlides" src="certis/f.JPG" style="width:100%">
+                    <img class="mySlides" src="certis/g.JPG" style="width:100%">
 
 
-                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                    <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                    <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+                </div>
+                <script>
+                    var slideIndex = 1;
+                    showDivs(slideIndex);
+
+                    function plusDivs(n) {
+                        showDivs(slideIndex += n);
+                    }
+
+                    function showDivs(n) {
+                        var i;
+                        var x = document.getElementsByClassName("mySlides");
+                        if (n > x.length) {
+                            slideIndex = 1
+                        }
+                        if (n < 1) {
+                            slideIndex = x.length
+                        }
+                        for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";
+                        }
+                        x[slideIndex - 1].style.display = "block";
+                    }
+                </script>
             </div>
-            <script>
-                var slideIndex = 1;
-                showDivs(slideIndex);
-
-                function plusDivs(n) {
-                    showDivs(slideIndex += n);
-                }
-
-                function showDivs(n) {
-                    var i;
-                    var x = document.getElementsByClassName("mySlides");
-                    if (n > x.length) {
-                        slideIndex = 1
-                    }
-                    if (n < 1) {
-                        slideIndex = x.length
-                    }
-                    for (i = 0; i < x.length; i++) {
-                        x[i].style.display = "none";
-                    }
-                    x[slideIndex - 1].style.display = "block";
-                }
-            </script>
 
         </div>
 

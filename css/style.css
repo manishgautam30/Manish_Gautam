@@ -395,10 +395,10 @@ ul li a:hover {
     float: left;
     line-height: 70px;
     text-transform: capitalize;
-    color: red;
+    color: aqua;
     transition: 0.2s;
-    font-size: 40px;
-    text-shadow: 0 0 15px white;
+    font-size: 30px;
+    text-shadow: 0 0 15px red;
 }
 
 .header .menu {
@@ -423,16 +423,24 @@ h1 {
 
 .menu li:hover {
     text-shadow: 0 0 10px #ff0000;
-    background-color: lightblue;
+    background-color: burlywood;
 }
 
-.menu li:hover~.menu i {
+a i {
+    color: white;
+}
+
+.menu li:hover i {
+    color: black;
+}
+
+.menu li:hover .menu li a {
     color: black;
 }
 
 .menu li a {
     text-decoration: none;
-    color: red;
+    color: white;
     font-weight: bold;
     font-size: larger;
     transition: 0.4s;
@@ -2328,4 +2336,8 @@ button:-moz-focusring,
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+}
+
+#contt {
+    padding: 20px;
 }
