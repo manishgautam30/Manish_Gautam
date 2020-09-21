@@ -426,10 +426,6 @@ h1 {
     background-color: burlywood;
 }
 
-a i {
-    color: white;
-}
-
 .menu li:hover i {
     color: black;
 }
