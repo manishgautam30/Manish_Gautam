@@ -7,11 +7,9 @@
 
     <link rel="icon" href="images/logo.jpg">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
     <title>Manish Gautam</title>
     <link rel="stylesheet" href="css/style.css">
-
 
 </head>
 
@@ -191,13 +189,71 @@
         </div>
 
 
+        <!-- certificationsssssssssssssssssssssssssssssssssssssssssssssssss -->
+
+        <div id="contm">
+
+            <div id="cerr" style=" display: flex; justify-content: center; align-items: center; background-color: black; margin: 20px;">
+                <h1 id="worktitle" style="text-align: center;letter-spacing: 5px;">Certifications</h1>
+            </div>
+
+            <div class="w3-content w3-display-container">
+
+                <img class="mySlides" src="certis/a.jpg" style="width:100%">
+                <img class="mySlides" src="certis/H.jpeg" style="width:100%">
+                <img class="mySlides" src="certis/b.jpg" style="width:100%">
+                <img class="mySlides" src="certis/HackInIndia.jpeg" style="width:100%">
+                <img class="mySlides" src="certis/c.jpg" style="width:100%">
+                <img class="mySlides" src="certis/d.jpg" style="width:100%">
+                <img class="mySlides" src="certis/Capture.JPG" style="width:100%">
+                <img class="mySlides" src="certis/e.jpg" style="width:100%">
+                <img class="mySlides" src="certis/f.JPG" style="width:100%">
+                <img class="mySlides" src="certis/g.JPG" style="width:100%">
+
+
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+            <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+
+                function plusDivs(n) {
+                    showDivs(slideIndex += n);
+                }
+
+                function showDivs(n) {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    if (n > x.length) {
+                        slideIndex = 1
+                    }
+                    if (n < 1) {
+                        slideIndex = x.length
+                    }
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    x[slideIndex - 1].style.display = "block";
+                }
+            </script>
+
+        </div>
+
+
+
+
+
+        <!-- folloow--------------------------------------------------------------------------------------------------------- -->
+
+
 
         <a name="followc"></a>
 
         <div id="followmain">
 
             <div id="followheading">
-                <h1 id="followtitle">Follow Here</h1>
+                <h1 id="followtitle" style="letter-spacing: 3px;">Follow Here</h1>
             </div>
 
 
