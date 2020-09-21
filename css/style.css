@@ -154,11 +154,12 @@ ul li a:hover {
     background-size: 100% 100%;
     font-style: oblique;
     font-weight: bold;
-    width: 300px;
+    width: 400px;
     color: white;
     border-radius: 5px;
     margin: auto;
     text-align: left;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #image {
@@ -478,7 +479,7 @@ a i {
     margin-right: 5px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     #imgcontainer {
         display: flex;
         justify-content: center;
