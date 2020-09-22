@@ -57,18 +57,12 @@ html {
     width: 50px;
     border-radius: 50%;
     position: fixed;
-    bottom: 30px;
-    right: 30px;
+    bottom: 20px;
+    right: 20px;
 }
 
 #arrowimg:hover {
     z-index: 5;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
     border: 3px solid red;
 }
 
@@ -337,9 +331,10 @@ ul li a:hover {
 }
 
 #followtitle {
-    color: aqua;
-    font-size: 30px;
-    font-style: oblique;
+    font-family: serif;
+    color: red;
+    font-size: 70px;
+    text-align: center;
 }
 
 #followcontent {
@@ -396,7 +391,7 @@ ul li a:hover {
     float: left;
     line-height: 70px;
     text-transform: capitalize;
-    color: aqua;
+    color: white;
     transition: 0.2s;
     font-size: 30px;
     text-shadow: 0 0 15px red;
@@ -424,7 +419,7 @@ h1 {
 
 .menu li:hover {
     text-shadow: 0 0 10px #ff0000;
-    background-color: burlywood;
+    background-color: rgb(37, 201, 179);
 }
 
 .menu li:hover i {
@@ -575,9 +570,11 @@ a i {
     justify-content: center;
     align-items: center;
     margin-bottom: 30px;
+    flex-direction: column;
 }
 
 #list {
+    order: 1;
     position: relative;
     display: flex;
 }
@@ -640,6 +637,32 @@ a i {
 #four:hover {
     color: #6ABE50;
     text-shadow: 0 0 15px #6ABE50;
+}
+
+#credit {
+    order: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.credithead {
+    text-align: center;
+    font-family: serif;
+    font-style: oblique;
+    color: black;
+    text-shadow: 0 0 15px red;
+}
+
+.credithead a {
+    text-decoration: none;
+    color: rgb(224, 48, 48);
+}
+
+.credithead a:hover {
+    color: blueviolet;
 }
 
 
