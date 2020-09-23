@@ -1,5 +1,5 @@
-# meri-website
-this is my website currently designed for laptop full size window only.
-it will require some time to make it responsive.......
-
-# https://manishgautam30.github.io/Manish_Gautam/
+# My Presonal Portfolio Website🤘
+### This is fully responsive Portfolio Website that is dessigned by me, @Author: Manish Guatam
+ 
+### Here is the link below 👇👇
+### https://manishgautam30.github.io/Manish_Gautam/
