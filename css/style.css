@@ -419,7 +419,8 @@ h1 {
 
 .menu li:hover {
     text-shadow: 0 0 10px #ff0000;
-    background-color: rgb(37, 201, 179);
+    background-color: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 30px #2196f3;
 }
 
 .menu li:hover i {
@@ -441,7 +442,7 @@ h1 {
 .show-btn:hover,
 .hide-btn:hover,
 .menu li a:hover {
-    color: blue;
+    color: red;
 }
 
 .show-btn,
@@ -2360,4 +2361,26 @@ button:-moz-focusring,
 
 #contt {
     padding: 20px;
+}
+
+
+/* headerrrrrrrrr------------------------------------------------- */
+
+#hell {
+    position: relative;
+    display: inline-block;
+    color: red;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+#hell:hover {
+    border-radius: 20px;
+    color: black;
+    background: #48a7f5;
+    box-shadow: 0 0 10px red, 0 0 40px red, 0 0 50px red;
 }
