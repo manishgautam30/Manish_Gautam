@@ -2367,19 +2367,12 @@ button:-moz-focusring,
 /* headerrrrrrrrr------------------------------------------------- */
 
 #hell {
-    position: relative;
-    display: inline-block;
     color: red;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    text-decoration: none;
-    font-size: 24px;
     overflow: hidden;
     transition: 0.2s;
 }
 
 #hell:hover {
-    border-radius: 20px;
     color: black;
     background: #48a7f5;
     box-shadow: 0 0 10px red, 0 0 40px red, 0 0 50px red;
