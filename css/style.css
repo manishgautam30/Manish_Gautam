@@ -8,7 +8,7 @@ html {
 }
 
 #container {
-    background-image: url('https://raw.githubusercontent.com/manishgautam30/My-Website/master/images/background.jpg');
+    background-image: url('https://miro.medium.com/max/4328/1*meLmIZWFt-TbNi8i4kobuw.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -315,11 +315,6 @@ ul li a:hover {
     /* margin-top: 50px; */
     display: flex;
     flex-direction: column;
-    background-image: url('https://raw.githubusercontent.com/manishgautam30/My-Website/master/images/laptop.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    /* background-color: #222; */
 }
 
 #followheading {
@@ -421,6 +416,7 @@ h1 {
     text-shadow: 0 0 10px #ff0000;
     background-color: #2196f3;
     box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 30px #2196f3;
+    border-radius: 10px;
 }
 
 .menu li:hover i {
@@ -564,7 +560,7 @@ a i {
 }
 
 
-/* fotter-------------------------------------------------------------- */
+/* footer-------------------------------------------------------------- */
 
 #bottom {
     display: flex;
@@ -653,17 +649,18 @@ a i {
     text-align: center;
     font-family: serif;
     font-style: oblique;
-    color: black;
+    color: white;
     text-shadow: 0 0 15px red;
+    background-color: black;
 }
 
 .credithead a {
     text-decoration: none;
-    color: rgb(224, 48, 48);
+    color: royalblue;
 }
 
 .credithead a:hover {
-    color: blueviolet;
+    color: red;
 }
 
 
@@ -2353,7 +2350,7 @@ button:-moz-focusring,
 
 #contm {
     margin-top: 30px;
-    background-image: url('https://raw.githubusercontent.com/manishgautam30/My-Website/master/images/lovely.jpg');
+    background-image: url('https://raw.githubusercontent.com/manishgautam30/My-Website/master/images/laptop.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -2375,5 +2372,15 @@ button:-moz-focusring,
 #hell:hover {
     color: black;
     background: #48a7f5;
-    box-shadow: 0 0 10px red, 0 0 40px red, 0 0 50px red;
+    box-shadow: 0 0 10px red, 0 0 30px red, 0 0 30px red;
+    border-radius: 10px;
+}
+
+#more {
+    display: inline-block;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-decoration: none;
 }
