@@ -1,5 +1,8 @@
 # My Presonal Portfolio Website🤘
-### This is fully responsive Portfolio Website that is dessigned by me, @Author: Manish Guatam
+### This is compleate responsive Live Personal Portfolio Website done as my project.
+---
+#### @Author: Manish Gautam
+---
  
-### Here is the link below 👇👇
+### Here is the link below to check it out 👇👇
 ### https://manishgautam30.github.io/Manish_Gautam/
