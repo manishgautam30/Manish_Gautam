@@ -16,8 +16,7 @@ html {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    overflow:hidden;
-
+    overflow: hidden;
 }
 
 #manishback {
@@ -581,7 +580,7 @@ a i {
 #items {
     list-style: none;
     position: relative;
-    margin: 0 20px;
+    margin: 0 16px;
     cursor: pointer;
 }
 
@@ -638,6 +637,18 @@ a i {
     text-shadow: 0 0 15px #6ABE50;
 }
 
+#five {
+    font-size: 2em;
+    color: black;
+    text-shadow: 0 0 10px white;
+    transition: 0.4s;
+}
+
+#five:hover {
+    color: #1facac;
+    text-shadow: 0 0 15px#1facac;
+}
+
 #credit {
     order: 2;
     display: flex;
@@ -649,8 +660,8 @@ a i {
 
 .credithead {
     text-align: center;
-    font-family: serif;
-    font-style: oblique;
+    font-family: sans-serif;
+    font-size: 24px;
     color: white;
     text-shadow: 0 0 15px red;
     background-color: black;
@@ -2366,17 +2377,16 @@ button:-moz-focusring,
 /* headerrrrrrrrr------------------------------------------------- */
 
 #hell {
-      background: #48a7f5;
+    background: #48a7f5;
     border-radius: 10px;
     overflow: hidden;
     transition: 0.2s;
-    height:100px;
-    width:100px;
+    height: 100px;
+    width: 100px;
 }
 
 #hell:hover {
-      box-shadow: 0 0 10px red, 0 0 30px red, 0 0 30px red;
-
+    box-shadow: 0 0 10px red, 0 0 30px red, 0 0 30px red;
 }
 
 #more {
