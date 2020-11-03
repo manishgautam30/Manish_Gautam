@@ -2366,16 +2366,17 @@ button:-moz-focusring,
 /* headerrrrrrrrr------------------------------------------------- */
 
 #hell {
-    color: red;
+      background: #48a7f5;
+    border-radius: 10px;
     overflow: hidden;
     transition: 0.2s;
+    height:100px;
+    width:100px;
 }
 
 #hell:hover {
-    color: black;
-    background: #48a7f5;
-    box-shadow: 0 0 10px red, 0 0 30px red, 0 0 30px red;
-    border-radius: 10px;
+      box-shadow: 0 0 10px red, 0 0 30px red, 0 0 30px red;
+
 }
 
 #more {
