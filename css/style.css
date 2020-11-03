@@ -2377,16 +2377,23 @@ button:-moz-focusring,
 /* headerrrrrrrrr------------------------------------------------- */
 
 #hell {
-    background: #48a7f5;
+    box-shadow: 0 0 10px red, 0 0 30px red, 0 0 30px red;
+    background-color: #fff;
     border-radius: 10px;
     overflow: hidden;
     transition: 0.2s;
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 80px;
+    padding: 10px 0px;
+}
+
+#hell img {
+    height: 50px;
+    width: 70px;
 }
 
 #hell:hover {
-    box-shadow: 0 0 10px red, 0 0 30px red, 0 0 30px red;
+    box-shadow: none;
 }
 
 #more {
